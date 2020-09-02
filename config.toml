@@ -1,11 +1,13 @@
-title = "Abhi's blog"
+title = "Abhishek Hodavdekar"
 baseURL = "https://abhishekkh.github.io"
 languageCode = "en-us"
 theme = "ananke"
 
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
+googleAnalytics = "UA-177003439-1"
 enableRobotsTXT = true
+enableEmoji = true
+enableInlineShortcodes = true
 
 
 [params]
@@ -16,7 +18,7 @@ enableRobotsTXT = true
   twitter = ""
   instagram = ""
   youtube = ""
-  github = ""
+  github = "https://www.github.com/abhishekkh"
   gitlab = ""
   linkedin = "https://www.linkedin.com/in/abhishekkh/"
   mastodon = ""
@@ -27,3 +29,4 @@ enableRobotsTXT = true
   background_color_class = "bg-black"
   featured_image = ""
   recent_posts_number = 2
+  show_reading_time = true
